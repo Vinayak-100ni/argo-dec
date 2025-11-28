@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Vinayak-100ni/argo-dec.git # Repo containing child apps(that you have forked and cloned earlier)
     targetRevision: main
-    path: .  # path of Online Shop app in `argocd-demos` repo
+    path: online-shop  # path of Online Shop app in `argocd-demos` repo
   destination:
     server: https://kubernetes.default.svc # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: default
