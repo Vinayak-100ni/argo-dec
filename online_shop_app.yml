@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Vinayak-100ni/argo-dec.git   # Git repo containing manifests
     targetRevision: main           # Git branch or tag (e.g., main, dev, release-1.0)
-    path: declarative_approach/online_shop   # Path inside repo where manifests live
+    path: .   # Path inside repo where manifests live
   destination:
     server: https://kubernetes.default.svc   # Target cluster API
     namespace: default             # Namespace in which to deploy the app
